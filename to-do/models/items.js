@@ -11,7 +11,7 @@ const todoschema = new mongoose.Schema({
         type: String,
         required: true
     },
-    status: {
+    iscompleted: {
         type: Boolean,
         required: true
     },
